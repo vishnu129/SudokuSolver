@@ -86,9 +86,9 @@ public class Solver {
 				
 			}
 		}
-		//this will only reached when all values are filled and no more 0s are available
+		//this will be only reached when all values are filled and no more 0s are available
 		reader();
-		//after the function end it will go back to the recursive call statement so need to put an exit or some other exit condition here
+		//after the function end it will go back to the recursive call statement so an exit is needed
 		System.exit(0);
 	}
 	
